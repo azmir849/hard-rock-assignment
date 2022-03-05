@@ -2,9 +2,9 @@
 function getResults(searchValue) {
     let parent = document.getElementById('fancy-look');
 
-    let result = null;
-    let answer = null;
-
+    let result = '';
+    let answer = '';
+//Get first 10 results
     for (let i = 0; i < 10; i++) {
         let title = searchValue.data[i].title;
         let artist = searchValue.data[i].artist.name;
